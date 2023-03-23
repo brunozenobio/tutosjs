@@ -1,0 +1,53 @@
+26) Console
+                  funciones de registro
+     - assert() - Aparece un mensaje de error en la consola si la afirmación es falsa. Si la
+afirmacion es verdadera, по aparecerá nada. (но ESTANDAR)
+      - clear() - limpia la consola
+       error() - Muestra un mensaje de error en la Consola Web.
+       info() - Emite un mensaje informativo a la Consola Web. En Firefox y Chrome, se muestra un
+pequeño ícono "i" junto a estos elementos en el registro de la Consola Web.
+        log() Muestra un mensaje en la consola web (o del intérprete Javascript).
+        table() Esta función toma un argumento obligatorio: data, que debe ser un array o un
+objeto, y un parámetro adicional: columns y nos muestra una tabla en consola
+     -warn() - Imprime un mensaje de advertencia en la Consola Web.
+     - dird() - Despliega una lista interactiva de las propiedades del objeto JavaScript
+especificado. [NO ESTANDAR]
+
+
+
+funciones de conteo
+- count() - Registra el nimero de veces que se llama a count(). Esta funcién toma como
+argumento opcional una etiqueta.
+
+countReseat()  Resetea el contador console.count()
+
+ Puede servir para saber cuantas veces se ejecuta una funcion
+
+    
+   
+
+
+
+
+
+funciones de agrupacién.
+- group() - Crea un nuevo grupo en linea en el registro de la consola web.
+ENtre parentesis puedo poner el nombre
+~ grupEnd() - Remueve un grupo en linea en el regisitro de la consola web.
+
+- groupCollapsed() - Crea un grupo en linea pero contraido, el usuario debe expandirlo para
+verlo,El grupo se crea cerrado pero todo lo que escribo queda en el grupo
+
+
+
+Funciones de temporizador
+
+--time()- inicia un temporizador
+--timeLog() -Registra el valor actual de un temporizador
+-timeEnd()-detiene el temporizador POr ejemplo puedo saber cunato tardo una funcion en ejecutarse
+ 
+console.log("%chola" ,"color:red;background:blue") (Escribe hola en rojo fondo azul)Puedo dar stylos como en css a lo
+que esta entre comillas luego de %c y el texto "%chola" y cada estilo separado por coma
+
+
+ 

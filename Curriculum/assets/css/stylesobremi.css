@@ -1,0 +1,332 @@
+.contain{
+
+
+  height: 100vh;
+  background-image: url("../images/Sin\ nombre.png");
+  
+  
+}
+.nav{
+font-size: 25px;
+
+
+}
+.barraNav{
+margin-top: 5px;
+}
+
+.bot button {
+display: inline-block;
+width: 100px;
+height: 40px;
+border-radius: 10px;
+border: 1px solid #03045e;
+position: relative;
+overflow: hidden;
+transition: all 0.5s ease-in;
+z-index: 1;
+}
+
+.bot button::before,
+.bot button::after {
+content: '';
+position: absolute;
+top: 0;
+width: 0;
+height: 100%;
+transform: skew(15deg);
+transition: all 0.5s;
+overflow: hidden;
+z-index: -1;
+}
+
+.bot button::before {
+left: -10px;
+background: #240046;
+}
+
+.bot button::after {
+right: -10px;
+background: #5a189a;
+}
+
+.bot button:hover::before,
+.bot button:hover::after {
+width: 58%;
+}
+
+.bot button:hover span {
+color: #e0aaff;
+transition: 0.3s;
+}
+
+.bot button span {
+color: #03045e;
+font-size: 18px;
+transition: all 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.start-contain{
+justify-content: flex-start;
+
+}
+
+
+
+.personal{
+justify-content: center;
+margin: -480px 26px 45px -161px;
+}
+
+.personal img{
+
+/* padding: 102px 92px 117px 116px; */
+
+border: 5px solid white;
+border-radius: 5%;
+scale: 0.2;
+}
+
+.info{
+margin: -535px 65px 5px 222px;
+
+}
+.info p{
+font-size: 18px;
+}
+
+.aboutme{
+margin: -255px 38px -54px 464px;
+
+}
+.aboutme div{
+justify-content: space-between;
+}
+
+
+
+.buttons {
+font-family: inherit;
+font-weight: 400;
+background: #f2295b;
+color: white;
+padding: 0.35em 0;
+font-size: 17px;
+border: none;
+border-radius: 0.7em;
+letter-spacing: 0.08em;
+position: relative;
+display: flex;
+align-content: center;
+align-items: center;
+
+overflow: hidden;
+height: 2.1em;
+padding-left: 3em;
+padding-right: 0em;
+height: 47px;
+width: 141px;
+
+}
+
+.buttons .icon {
+background: #fff;
+margin-right: 1em;
+
+height: 2.2em;
+width: 2.2em;
+border-radius: 0.5em;
+position: absolute;
+
+display: flex;
+align-items: center;
+justify-content: center;
+left: 0.3em;
+transition: all .7s;
+}
+
+.buttons svg{
+padding-left: 5px;
+justify-content: space-around;
+}
+.buttons p{
+margin-top: 16px;
+padding-top: -8px;
+text-align: center;
+}
+.shere {
+width: 1.3rem;
+height: 1.3rem;
+margin-left: 4px;
+}
+
+.buttons:hover .icon {
+width: calc(100% - 0.6rem);
+}
+
+.buttons:hover .shere {
+width: calc(100% - 0.6rem);
+display: none;
+}
+
+.buttons .icon-shere {
+color: #f2295b;
+width: 1.5rem;
+height: 1.5rem;
+display: none;
+}
+
+.buttons:hover .icon .icon-shere {
+display: flex;
+}
+
+
+.icon{
+width: 30px;
+height: 30px;
+}
+
+
+
+.descrition{
+margin: 110px 98px 124px 205px;
+text-align:justify;
+font-size: 20px;
+}
+
+.contact{
+
+background-color: #212121;
+justify-content: space-between;
+margin-top:665px;
+}
+
+
+.p-contact{
+color: white;
+text-align: center;
+
+
+}
+
+.redes-sociales{
+color: white;
+text-align: start;
+}
+
+.form p{
+color: white;
+}
+
+
+.habil{
+justify-content: center;
+margin: -73px 166px 78px 137px;
+}
+.habil h2{
+text-transform: uppercase;
+
+}
+
+
+.btnC {
+display: inline-block;
+padding: 12px 24px;
+border: 1px solid #4f4f4f;
+border-radius: 4px;
+transition: all 0.2s ease-in;
+position: relative;
+overflow: hidden;
+font-size: 19px;
+color: black;
+z-index: 1;
+}
+
+.btnC:before {
+content: "";
+position: absolute;
+left: 50%;
+transform: translateX(-50%) scaleY(1) scaleX(1.25);
+top: 100%;
+width: 140%;
+height: 180%;
+background-color: rgba(0, 0, 0, 0.05);
+border-radius: 50%;
+display: block;
+transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+z-index: -1;
+}
+
+.btnC:after {
+content: "";
+position: absolute;
+left: 55%;
+transform: translateX(-50%) scaleY(1) scaleX(1.45);
+top: 180%;
+width: 160%;
+height: 190%;
+background-color: #39bda7;
+border-radius: 50%;
+display: block;
+transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+z-index: -1;
+}
+
+.btnC:hover {
+color: #ffffff;
+border: 1px solid #39bda7;
+}
+
+.btnC:hover:before {
+top: -35%;
+background-color: #39bda7;
+transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.btnC:hover:after {
+top: -45%;
+background-color: #39bda7;
+transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+/* Estilos para el cuadro modal */
+.modal-imagen{
+display: none;
+}
+.modal {
+display: none; /* Ocultar el cuadro modal por defecto */
+position: fixed; /* Posicionamiento fijo para mantener el cuadro modal en la pantalla */
+z-index: 999; /* Establecer un índice de apilamiento alto para que el cuadro modal esté en la parte superior */
+left: 50%; /* Centrar horizontalmente el cuadro modal */
+top: 50%; /* Centrar verticalmente el cuadro modal */
+transform: translate(-50%, -50%); /* Mover el cuadro modal hacia arriba y hacia la izquierda la mitad de su tamaño */
+max-width: 90%; /* Establecer un ancho máximo para el cuadro modal */
+max-height: 90%; /* Establecer una altura máxima para el cuadro modal */
+overflow: auto; /* Permitir el desplazamiento si la imagen es más grande que el cuadro modal */
+padding: 20px; /* Agregar un espacio alrededor de la imagen */
+background-color: #fff; /* Establecer un color de fondo para el cuadro modal */
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Agregar una sombra al cuadro modal */
+}
+
+/* Estilos para el fondo oscuro detrás del cuadro modal */
+.modal-fondo {
+display: none; /* Ocultar el fondo oscuro por defecto */
+position: fixed; /* Posicionamiento fijo para mantener el fondo oscuro en la pantalla */
+z-index: 998; /* Establecer un índice de apilamiento menor para el fondo oscuro */
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6); /* Establecer un color de fondo oscuro semitransparente */
+}
